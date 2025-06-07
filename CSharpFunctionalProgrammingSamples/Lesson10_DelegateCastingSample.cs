@@ -20,7 +20,7 @@ public sealed class Lesson10_DelegateCastingSample : Sample
 		int[] array = [3, 8, 1, 6, 5, 4, 7, 2, 9];
 		//Sort(array, new Func<int, int, int>(comparison)); // 其中一种转换方式，不过这种不能使用委托推断行为。
 
-		Sort(array, comparison.Invoke); // 直接使用方法组转换的逻辑，将 Invoke 调用作为方法组传入即可。
+		Sort(array, comparison.Invoke); // 直接使用方法组转换，将 Invoke 调用作为方法组传入即可。
 		Console.WriteLine($"[{string.Join(", ", array)}]");
 	}
 
