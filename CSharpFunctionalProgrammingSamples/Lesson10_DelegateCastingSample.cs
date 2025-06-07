@@ -3,7 +3,7 @@
 /// <summary>
 /// 将一个委托类型转换到另外一个委托类型的实例，如果两个委托类型的函数签名一致的话。
 /// </summary>
-public sealed class Lesson10_DelegateCastingSample : Sample
+internal sealed class Lesson10_DelegateCastingSample : Sample
 {
 	/// <inheritdoc/>
 	public override void RunSample()
