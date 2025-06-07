@@ -6,6 +6,10 @@
 internal sealed class Lesson03_HeaterEventHandlerSample : Sample
 {
 	/// <inheritdoc/>
+	/// <remarks>
+	/// 注意这个函数带有异步操作，但不返回值。如果要看这个实例的效果，
+	/// 请在调用方强行插入 <see cref="Console.ReadKey()"/> 之类的函数避免主线程直接退出。
+	/// </remarks>
 	public override async void RunSample()
 	{
 		// 声明一个热水器的实例。
