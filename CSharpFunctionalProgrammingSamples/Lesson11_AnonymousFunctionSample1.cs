@@ -6,6 +6,7 @@
 internal sealed class Lesson11_AnonymousFunctionSample1 : Sample
 {
 	/// <inheritdoc/>
+	/// <remarks><inheritdoc cref="Lesson03_HeaterEventHandlerSample.RunSample" path="/remarks"/></remarks>
 	public override async void RunSample()
 	{
 		// 声明一个热水器的实例。
