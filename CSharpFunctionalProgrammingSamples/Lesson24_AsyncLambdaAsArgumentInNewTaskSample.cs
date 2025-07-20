@@ -1,13 +1,19 @@
 ﻿namespace CSharpFunctionalProgrammingSamples;
 
 /// <summary>
-/// 在 <see cref="Task(Action)"/> 里传入 async lambda 表达式，以及 <see cref="Task.Run(Func{Task?})"/> 的例子。
+/// 不建议使用的两种情况：
+/// <list type="bullet">
+/// <item>在 <see cref="Task(Action)"/> 传入 async lambda 表达式</item>
+/// <item>在 <see cref="Task.Run(Func{Task?})"/> 传入使用非 CPU 密集型操作的 async lambda 表达式</item>
+/// </list>
 /// </summary>
 internal sealed class Lesson24_AsyncLambdaAsArgumentInNewTaskSample : Sample
 {
 	/// <inheritdoc/>
 	public override async void RunSample()
 	{
+		// 
+
 		// 1. 作为 new Task 参数。
 		// async lambda 表达式应该使用 Func<Task> 委托类型的实例（变量）接收。可 new Task 的构造器参数全都是 Action 系列的。
 		// 这意味着 Action 没有返回值，也就意味着 async lambda 被“改写成” async void 组合在使用。
