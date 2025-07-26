@@ -10,7 +10,10 @@ namespace CSharpFunctionalProgrammingSamples;
 internal sealed class Lesson22_AsyncLambdaExpressionSample : Sample
 {
 	/// <inheritdoc/>
-	public override async void RunSample()
+	public override async void RunSample() => await RunSampleCoreAsync();
+
+
+	private static async Task RunSampleCoreAsync()
 	{
 		// 异步 lambda 表达式。
 		Func<Task> fetcher = async () =>
