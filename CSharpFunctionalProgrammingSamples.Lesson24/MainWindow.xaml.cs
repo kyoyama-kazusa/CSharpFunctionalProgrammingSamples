@@ -1,4 +1,6 @@
-﻿namespace CSharpFunctionalProgrammingSamples.Lesson24;
+﻿#undef WRONG_IMPL
+
+namespace CSharpFunctionalProgrammingSamples.Lesson24;
 
 /// <summary>
 /// 主界面窗口。
