@@ -12,6 +12,9 @@
 		<None Update="CSharpFunctionalProgrammingSamples.Lesson34.dll">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
+		<None Update="CSharpFunctionalProgrammingSamples.Lesson35.dll">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
 	</ItemGroup>
 
 </Project>
