@@ -20,7 +20,7 @@ internal sealed unsafe class Lesson34_UnmanagedFunctionPointerSample : Sample
 		Console.WriteLine($"[{string.Join(',', arr)}]");
 
 
-		[UnmanagedCallersOnly]
+		[UnmanagedCallersOnly(CallConvs = new[] { typeof(CallConvStdcall) })]
 		static int cmp(int left, int right) => left - right;
 	}
 
@@ -29,7 +29,7 @@ internal sealed unsafe class Lesson34_UnmanagedFunctionPointerSample : Sample
 	private static extern void BubbleSort(int* arr, int length, UnmanagedValueComparer comparer);
 
 	[DllImport("CSharpFunctionalProgrammingSamples.Lesson34.dll", EntryPoint = "bubble_sort")]
-	private static extern void BubbleSortUnmanaged(int* arr, int length, delegate* unmanaged<int, int, int> comparer);
+	private static extern void BubbleSortUnmanaged(int* arr, int length, delegate* unmanaged[Stdcall]<int, int, int> comparer);
 }
 
 [UnmanagedFunctionPointer(CallingConvention.Cdecl)]

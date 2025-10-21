@@ -5,8 +5,8 @@
 /// </summary>
 /// <param name="arr">数组，传指针。</param>
 /// <param name="length">长度。</param>
-/// <param name="comparer">表明排序的规则。</param>
-void bubble_sort(int* arr, int length, int (*comparer)(int, int))
+/// <param name="comparer">表明排序的规则。指定 stdcall 调用约定。</param>
+void bubble_sort(int* arr, int length, int (__stdcall *comparer)(int, int))
 {
 	for (int i = 0; i < length - 1; i++)
 	{
