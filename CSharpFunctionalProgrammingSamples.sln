@@ -18,6 +18,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSharpFunctionalProgramming
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSharpFunctionalProgrammingSamples.Lesson36", "CSharpFunctionalProgrammingSamples.Lesson36\CSharpFunctionalProgrammingSamples.Lesson36.vcxproj", "{44C01353-6201-4646-9722-046EFD340A50}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSharpFunctionalProgrammingSamples.Lesson37", "CSharpFunctionalProgrammingSamples.Lesson37\CSharpFunctionalProgrammingSamples.Lesson37.vcxproj", "{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,18 @@ Global
 		{44C01353-6201-4646-9722-046EFD340A50}.Release|x64.Build.0 = Release|x64
 		{44C01353-6201-4646-9722-046EFD340A50}.Release|x86.ActiveCfg = Release|Win32
 		{44C01353-6201-4646-9722-046EFD340A50}.Release|x86.Build.0 = Release|Win32
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Debug|Any CPU.Build.0 = Debug|x64
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Debug|x64.ActiveCfg = Debug|x64
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Debug|x64.Build.0 = Debug|x64
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Debug|x86.ActiveCfg = Debug|Win32
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Debug|x86.Build.0 = Debug|Win32
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Release|Any CPU.ActiveCfg = Release|x64
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Release|Any CPU.Build.0 = Release|x64
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Release|x64.ActiveCfg = Release|x64
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Release|x64.Build.0 = Release|x64
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Release|x86.ActiveCfg = Release|Win32
+		{B7E81D4E-3513-4548-AE09-3FBC50AC5ADB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
