@@ -1,5 +1,7 @@
-﻿// 这里替换为目标的那个案例的包裹类型。
-var sample = new Lesson44_MethodGroupImprovementsSample();
+﻿using CSharpFunctionalProgrammingSamples.FunctionalProgramming;
+
+// 这里替换为目标的那个案例的包裹类型。
+var sample = new Lesson48_CurryingSample();
 
 // 调用。
 sample.RunSample();
