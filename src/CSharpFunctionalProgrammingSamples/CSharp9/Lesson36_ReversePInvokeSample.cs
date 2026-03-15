@@ -39,10 +39,10 @@ internal sealed class Lesson36_ReversePInvokeSample : Sample
 		Console.WriteLine($"[{string.Join(',', arr)}]");
 	}
 
-	[DllImport("CSharpFunctionalProgrammingSamples.Lesson36.dll", EntryPoint = "set_value_comparer")]
+	[DllImport("CSharp9/CSharpFunctionalProgrammingSamples.Lesson36.dll", EntryPoint = "set_value_comparer")]
 	private static extern unsafe void SetValueComparer(delegate* unmanaged<int, int, bool> comparer);
 
-	[DllImport("CSharpFunctionalProgrammingSamples.Lesson36.dll", EntryPoint = "bubble_sort")]
+	[DllImport("CSharp9/CSharpFunctionalProgrammingSamples.Lesson36.dll", EntryPoint = "bubble_sort")]
 	private static extern unsafe void BubbleSort(int* arr, int length);
 }
 

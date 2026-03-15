@@ -25,10 +25,10 @@ internal sealed unsafe class Lesson34_UnmanagedFunctionPointerSample : Sample
 	}
 
 
-	[DllImport("CSharpFunctionalProgrammingSamples.Lesson34.dll", EntryPoint = "bubble_sort")]
+	[DllImport("CSharp9/CSharpFunctionalProgrammingSamples.Lesson34.dll", EntryPoint = "bubble_sort")]
 	private static extern void BubbleSort(int* arr, int length, UnmanagedValueComparer comparer);
 
-	[DllImport("CSharpFunctionalProgrammingSamples.Lesson34.dll", EntryPoint = "bubble_sort")]
+	[DllImport("CSharp9/CSharpFunctionalProgrammingSamples.Lesson34.dll", EntryPoint = "bubble_sort")]
 	private static extern void BubbleSortUnmanaged(int* arr, int length, delegate* unmanaged[Stdcall]<int, int, int> comparer);
 }
 

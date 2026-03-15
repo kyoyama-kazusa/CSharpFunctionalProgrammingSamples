@@ -42,12 +42,12 @@ internal sealed class Lesson35_StdcallAndCdeclSample : Sample
 	}
 
 
-	[DllImport("CSharpFunctionalProgrammingSamples.Lesson35.dll", EntryPoint = "stdcall_add", CallingConvention = CallingConvention.StdCall)]
+	[DllImport("CSharp9/CSharpFunctionalProgrammingSamples.Lesson35.dll", EntryPoint = "stdcall_add", CallingConvention = CallingConvention.StdCall)]
 	private static extern int StdcallAdd(int a, int b);
 
-	[DllImport("CSharpFunctionalProgrammingSamples.Lesson35.dll", EntryPoint = "cdecl_add", CallingConvention = CallingConvention.Cdecl)]
+	[DllImport("CSharp9/CSharpFunctionalProgrammingSamples.Lesson35.dll", EntryPoint = "cdecl_add", CallingConvention = CallingConvention.Cdecl)]
 	private static extern int CdeclAdd(int a, int b);
 
-	[DllImport("CSharpFunctionalProgrammingSamples.Lesson35.dll", EntryPoint = "vararg_sum", CallingConvention = CallingConvention.Cdecl)]
+	[DllImport("CSharp9/CSharpFunctionalProgrammingSamples.Lesson35.dll", EntryPoint = "vararg_sum", CallingConvention = CallingConvention.Cdecl)]
 	private static extern int VarargsSum(int count, __arglist);
 }
