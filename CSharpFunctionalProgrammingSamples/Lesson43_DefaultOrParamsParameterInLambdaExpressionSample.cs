@@ -24,7 +24,7 @@ internal sealed class Lesson43_DefaultOrParamsParameterInLambdaExpressionSample 
 		defaultParameterLambda(); // 使用默认赋值（42）。
 
 		//
-		// 2. 带 params 修饰符的参数的 lambda 表达式。
+		// 2. 带 <see langword="params"/> 修饰符的参数的 lambda 表达式。
 		//
 		var paramsParameterLambda = static (Func<int, int, int> comparer, params int[] array) =>
 		{
