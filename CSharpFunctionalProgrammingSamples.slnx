@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Lesson-based Projects/">
+    <Project Path="src/CSharpFunctionalProgrammingSamples.Lesson24/CSharpFunctionalProgrammingSamples.Lesson24.csproj" />
+    <Project Path="src/CSharpFunctionalProgrammingSamples.Lesson34/CSharpFunctionalProgrammingSamples.Lesson34.vcxproj" Id="c55370f9-d8ee-4008-986e-469b9ac16ac5" />
+    <Project Path="src/CSharpFunctionalProgrammingSamples.Lesson35/CSharpFunctionalProgrammingSamples.Lesson35.vcxproj" Id="fe7e1a2d-6f08-425f-919e-60a4fc23fb38" />
+    <Project Path="src/CSharpFunctionalProgrammingSamples.Lesson36/CSharpFunctionalProgrammingSamples.Lesson36.vcxproj" Id="44c01353-6201-4646-9722-046efd340a50" />
+    <Project Path="src/CSharpFunctionalProgrammingSamples.Lesson37/CSharpFunctionalProgrammingSamples.Lesson37.vcxproj" Id="b7e81d4e-3513-4548-ae09-3fbc50ac5adb" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/CSharpFunctionalProgrammingSamples/CSharpFunctionalProgrammingSamples.csproj" />
+</Solution>
