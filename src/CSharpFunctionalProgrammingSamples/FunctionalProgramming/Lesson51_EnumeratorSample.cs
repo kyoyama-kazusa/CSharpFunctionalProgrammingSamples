@@ -36,7 +36,7 @@ file ref struct Enumerator
 
 
 	/// <summary>
-	/// 无参构造器 - C# 9 开始允许我们自定义值类型的无参构造器。
+	/// 无参构造器 - C# 10 开始允许我们自定义值类型的无参构造器。
 	/// </summary>
 	public Enumerator() => _index = -1;
 
