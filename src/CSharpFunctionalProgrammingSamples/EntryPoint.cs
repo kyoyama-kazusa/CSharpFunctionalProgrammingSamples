@@ -1,7 +1,7 @@
 ﻿using CSharpFunctionalProgrammingSamples.FunctionalProgramming;
 
 // 这里替换为目标的那个案例的包裹类型。
-var sample = new Lesson51_EnumeratorSample();
+var sample = new Lesson53_YCombinatorSample();
 
 // 调用。
 sample.RunSample();
